@@ -90,7 +90,28 @@ The bar plot for percentage price changes is generated using Matplotlib, while t
 
 <h3>4. Simulated Historical Data</h3>
 
-Since the CoinMarketCap API does not provide historical price data directly, the app simulates historical data for the 7-day price change and 24-hour volume graphs using random data.
+Since the CoinMarketCap API does not directly provide historical price data, the app simulates historical data for the 7-day price change and 24-hour volume graphs using random data.
 
 In a real-world scenario, you would replace this with actual historical data from a suitable API or database.
+
+<h2>How to Run the App</h2>
+
+Clone this repository to your local machine.
+
+Install the required Python libraries.
+
+Obtain a CoinMarketCap API key from [CoinMarketcap](https://coinmarketcap.com/api/)
+
+Replace the API_URL and API_KEY placeholders in the code with your actual API key.
+
+Run the app using the following command:
+
+streamlit run crypto_price_app.py
+
+<h2>Screenshots</h2>
+
+[IMAGE_1](https://github.com/user-attachments/assets/50f93a0a-8edd-44d2-9f3c-ec9d176a00b5)
+[IMAGE_2](https://github.com/user-attachments/assets/9b827c52-92a1-4ac3-b512-e02b971fd382)
+[IMAGE_3](https://github.com/user-attachments/assets/4f2c85cf-7d07-4554-b93a-b74d6bab4c21)
+
 
